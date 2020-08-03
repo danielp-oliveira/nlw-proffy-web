@@ -1,5 +1,9 @@
 import React from 'react'
 
-const App = () => <h1>Hello World</h1>
+import Landing from './pages/Landing'
+
+import './assets/styles/global.css'
+
+const App = () => <Landing />
 
 export default App
